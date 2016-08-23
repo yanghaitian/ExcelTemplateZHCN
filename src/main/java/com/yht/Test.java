@@ -14,8 +14,8 @@ import com.yht.exceltemplate.ExcelTemplate;
 public class Test {
 	public static void main(String[] args) {
 		try {
-			InputStream is = new FileInputStream("/home/yanghaitian/developer/project/myProjects/ExcelTemplateZHCN/src/main/resources/a.xls");
-			OutputStream outputStream = new FileOutputStream("/home/yanghaitian/developer/project/myProjects/ExcelTemplateZHCN/src/main/resources/b.xls");
+			InputStream is = new FileInputStream("E:/project/myProjects/ExcelTemplateZHCN/src/main/resources/test.xls");
+			OutputStream outputStream = new FileOutputStream("E:/b.xls");
 			Map<String,Object> map = new HashMap<String, Object>();
 			map.put("a", "小a");
 			map.put("b", "大b");
