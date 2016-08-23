@@ -24,7 +24,7 @@ public class Test {
 			List<Map> list1 = new ArrayList<Map>();
 			Map<String,Object> list1Map1 = new HashMap<String,Object>();
 			list1Map1.put("哈哈", "哈哈嘿嘿");
-			list1Map1.put("haha", "hahahehe");
+			list1Map1.put("haha", "hahahehe");//
 			list1.add(list1Map1);
 
 			Map<String,Object> list1Map2 = new HashMap<String,Object>();
